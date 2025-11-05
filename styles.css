@@ -11,3 +11,41 @@
   margin: 0px;
   padding: 0px;
 }
+
+.canvas-title {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.canvas-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.canvas-tiles-container {
+  width: 700px;
+  height: 700px;
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid blue;
+}
+
+.grid-row {
+  display: flex;
+  flex: 1;
+}
+
+.tile {
+  border: 1px solid #ccc;
+  background-color: white;
+  flex: 1;
+}
+
+.tile:hover {
+  background-color: #f0f0f0;
+}
