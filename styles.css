@@ -47,5 +47,31 @@
 }
 
 .tile:hover {
-  background-color: #f0f0f0;
+  background-color: #1f2837;
+  cursor: pointer;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(56, 130, 246, 0.3);
+}
+
+.canvas-clear-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3896f4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.canvas-clear-button:hover {
+  background-color: #2879c7;
+}
+
+.canvas-clear-button:active {
+  background-color: #1f5fa6;
+}
+.canvas-clear-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(56, 150, 244, 0.5);
 }
